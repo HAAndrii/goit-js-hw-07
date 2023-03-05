@@ -38,8 +38,7 @@ function onGalleryClick(event) {
 
     const originalImg = event.target.dataset.source;
 
-    
-    imageInstance = basicLightbox.create(`<img src="${originalImg}">`,{
+    imageInstance = basicLightbox.create(`<img src="${originalImg}">`, {
         onShow: addEventKeyUp, 
         onClose: removeEventKeyUp
 		});
