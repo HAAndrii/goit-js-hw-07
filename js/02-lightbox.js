@@ -15,12 +15,12 @@ function createGallery(items) {
     galleryEl.insertAdjacentHTML('afterbegin', arr.join(''));
 }
 
-galleryEl.addEventListener('click', onGalleryClick);
+// galleryEl.addEventListener('click', onGalleryClick);
 
 
-function onGalleryClick(event) {
-    event.preventDefault();
-}
+// function onGalleryClick(event) {
+//     event.preventDefault();
+// }
 
 const lightbox = new SimpleLightbox('.gallery a', { /* options */ });
 
